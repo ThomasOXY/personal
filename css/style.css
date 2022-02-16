@@ -80,6 +80,10 @@ body {
           flex-flow: column;
   color: white;
   font-family: "Raleway", sans-serif;
+  background-color: #192836;
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
 }
 
 .about p {
@@ -89,6 +93,13 @@ body {
   border: 2px solid white;
   padding: 2em;
   border-radius: 15px;
+  background-color: #34495e;
+}
+
+.about .why {
+  padding: .6em;
+  text-align: left;
+  background-color: #2980b9;
 }
 
 @media only screen and (max-width: 600px) {
